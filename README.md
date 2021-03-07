@@ -2,8 +2,8 @@
 
 ## Install packages
 
-npm install
+```npm install```
 
 ## Run Web Server
 
-npm run dev
+```npm run dev```
