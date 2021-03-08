@@ -2,8 +2,8 @@
   "name": "atm-maps",
   "scripts": {
     "build": "webpack --config ./webpack.prod.js --mode production",
-    "dev": "webpack-dev-server --config ./webpack.dev.js",
-    "watch": "webpack --config ./webpack.dev.js --mode development"
+    "build-watch": "webpack --config ./webpack.dev.js --mode development",
+    "serve": "webpack-dev-server --config ./webpack.dev.js"
   },
   "dependencies": {
     "webpack-merge": "^5.2.0"
